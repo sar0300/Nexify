@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expences</title>
+    <link rel="stylesheet" href="expences.css">
+</head>
+<body>
+    <table class="bnb">
+        <tr>
+            <td colspan="3" class="title">Expences</td>
+        </tr>
+        <tr>
+            <td class="lbl">Select Categories</td>
+            <td>:</td>
+            <td>
+                <div class="categories">
+                    <label>
+                        <input type="radio" id="utilities" name="category">
+                        Utilities
+                    </label>
+                    <label>
+                        <input type="radio" id="entertainment" name="category">
+                        Entertainment
+                    </label>
+                    <label>
+                        <input type="radio" id="food" name="category">
+                        Food
+                    </label>
+                    <label>
+                        <input type="radio" id="health" name="category">
+                        Health
+                    </label>
+                    <label>
+                        <input type="radio" id="transport" name="category">
+                        Transport
+                    </label>
+                    <label>
+                        <input type="radio" id="others" name="category">
+                        Others
+                    </label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Enter Amount</td>
+            <td>:</td>
+            <td>
+                <input type="text" id="txtAmount" name="amount" class="txtbx">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">
+                <input type="submit" name="submit" id="btn" value="ADD">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
